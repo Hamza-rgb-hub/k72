@@ -1,5 +1,5 @@
 import React, { useRef } from "react"
-import { useNav } from "../../context/navContext"
+import { useNav } from "../../context/NavContext"
 
 const Navbar = ({ logoColor = "white" }) => {
   const navGreenRef = useRef(null)

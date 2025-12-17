@@ -10,7 +10,7 @@ export const useNav = () => {
     return context
 }
 
-const NavProvider = ({ children }) => {
+export const NavProvider = ({ children }) => {
     const [navOpen, setNavOpen] = useState(false)
     
     return (
@@ -20,4 +20,3 @@ const NavProvider = ({ children }) => {
     )
 }
 
-export default NavProvider

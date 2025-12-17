@@ -10,11 +10,6 @@ import Contact from './pages/Contact'
 
 const App = () => {
   return (
-
-    // <>
-    //   
-    // </>
-
     <div className=''>
       <FullScreenNav />
       <Navbar />
